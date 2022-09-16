@@ -1,0 +1,18 @@
+{
+  "name": "hoouin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
+}
