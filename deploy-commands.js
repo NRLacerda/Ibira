@@ -4,11 +4,9 @@ const { clientId, guildId, token } = require('./config.json'); //puxa as info do
 
 
 // Declaração dos comandos e suas descrições
-const commands = [
-	new SlashCommandBuilder().setName('xama').setDescription('O Xamã Ibira foi invocado!'),
+const commands = 
+[
 	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
-	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
-    new SlashCommandBuilder().setName('jsfun').setDescription('Funções de JS... que ?')
 ]
 
 .map(command => command.toJSON());
