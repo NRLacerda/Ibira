@@ -47,7 +47,7 @@ client.on('interactionCreate', async interaction => {
     }else if (commandName === 'htmlcss'){
         await interaction.reply(':green_circle: **HTML/CSS** é por onde todos começam geralmente, existe uma quantidade de informação sobre front infinta na internet!\n Da uma olhada: \nSobre HTML: https://developer.mozilla.org/pt-BR/docs/Web/HTML \nSobre CSS: https://developer.mozilla.org/pt-BR/docs/Web/CSS')
     }else if (commandName === 'bot'){
-        await interaction.reply(':green_circle: Sobre **01100101 01110101**?\nFui criado em 16/09/22, pela **Organização**,\nMais especificamente pelo organizador Nicolas Cavalcanti\ncom o propósito de guiar no mundo da programação!\nTem alguma sugestão de melhoria, ou correção de bug? Manda uma DM!')
+        await interaction.reply(':green_circle: Sobre **01100101 01110101**?\nFui criado em 16/09/22, pela **Organização**,\nMais especificamente pelo organizador Nicolas Cavalcanti\ncom o propósito de guiar no mundo da programação!\nFeito utilizando o guia > https://discordjs.guide/creating-your-bot/creating-commands.html#registering-commands\nTem alguma sugestão de melhoria, ou correção de bug? Manda uma DM!')
     }else if (commandName === 'nocode'){
         await interaction.reply(':green_circle: Sem código mano? ai é dificil de ajudar você\nPosta seu código aqui wrapado!\nNão sabe o que é "wrap"? Use /wrap')
     }else if (commandName == 'wrap'){
