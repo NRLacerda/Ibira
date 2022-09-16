@@ -17,12 +17,12 @@ client.on('interactionCreate', async interaction => {
 
     if (commandName === 'xama') { 
         await interaction.reply(`O Xamã Ibira foi invocado em: ${interaction.guild.name} ! **efeitos sonoros de batalha**`);
-    } else if (commandName === 'server') {
-        await interaction.reply('Server info.');
+    } else if (commandName === 'jsfun') {
+        await interaction.reply('Ibira disse que existem livros sagrados que podem te dizer mais sobre isso... MDN = https://developer.mozilla.org/en-US/docs/Web/JavaScript');
     } else if (commandName === 'user') {
         await interaction.reply('User info.');
     }
 });
-
+ 
 // Login to Discord with your client's token
 client.login(token);

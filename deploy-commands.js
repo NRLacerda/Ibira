@@ -8,6 +8,7 @@ const commands = [
 	new SlashCommandBuilder().setName('xama').setDescription('O Xamã Ibira foi invocado!'),
 	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
 	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
+    new SlashCommandBuilder().setName('jsfun').setDescription('Funções de JS... que ?')
 ]
 
 .map(command => command.toJSON());
