@@ -9,6 +9,25 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once('ready', () => {
 	console.log('Ready!');
 });
+// Tentando trocar o prefixo do BOT
+/*
+const prefix = '+'
+
+client.on('InteractionCreate', async msg => {
+  // not start with prefix -> return early
+  if (!msg.content.startWith(prefix)) return;
+
+  // remove prefix to get command name
+  const commandName = msg.content.slice(prefix.length);
+
+  // check for command name directly
+  if (commandName === 'xama') {
+    // do something
+  } else if (commandName === 'jsfun') {
+    await interaction.reply('Ibira disse que existem livros sagrados que podem te dizer mais sobre isso... MDN = https://developer.mozilla.org/en-US/docs/Web/JavaScript');
+  }
+}
+*/
 
 client.on('interactionCreate', async interaction => {
     if (!interaction.isChatInputCommand()) return;
