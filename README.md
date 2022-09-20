@@ -19,3 +19,4 @@ Se você quiser setar uma variável com algum número use o comando abaixo para 
 Links Úteis:
 // Como importar algumas funções de building do Discord.js
 https://discordjs.guide/popular-topics/builders.html#links
+

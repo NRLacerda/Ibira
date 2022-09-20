@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ibira-staging-191237-authRole",
+      "UnauthRoleArn": "arn:aws:iam::052605635423:role/amplify-ibira-staging-191237-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::052605635423:role/amplify-ibira-staging-191237-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ibira-staging-191237-deployment",
+      "UnauthRoleName": "amplify-ibira-staging-191237-unauthRole",
+      "StackName": "amplify-ibira-staging-191237",
+      "StackId": "arn:aws:cloudformation:us-east-1:052605635423:stack/amplify-ibira-staging-191237/309eb860-3918-11ed-a82f-0e40f5ee4e7d",
+      "AmplifyAppId": "d1qqptnm8ww7vh"
+    }
+  }
+}
