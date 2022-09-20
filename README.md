@@ -1,20 +1,19 @@
 <h1> Ibira, o Xamã</h1>
-<h3> um bot do Discord com intuito de ensinar a magia da programação</h3> 
+<h2> Um bot do Discord com intuito de ensinar a magia da programação</h2> 
+<p>Para executar o Bot use 
+"node index.js"</p>
 
-Para executar o Bot use 
-"node index.js"
+<strong>IMPORTANTE!<br></strong>
+<strong>NUNCA COMPARTILHE O TOKEN DO BOT COM NINGUÉM</strong>
 
-IMPORTANTE!<br>
-
-NUNCA<br>
-REPITO<br>
-<strong>NUNCA COMPARTILHE O TOKEN DO BOT COM NINGUÉM, SE A PESSOA TIVER ESSE TOKEN ELA PODE </strong>
-FAZER TUDO<br>
-<strong>INCLUSIVE APAGAR O BOT</strong>
-
-Se você quiser setar uma variável com algum número use o comando abaixo para executar o programa.<br>
+<h3>Se você quiser setar uma variável com algum número use o comando abaixo para executar o programa.<br>
  "A=123 B=456 DISCORD_TOKEN=your-token-goes-here node index.js"<br>
 É possível fazer processo semelhante usando "dotenv"<br>
+</h3>
+
+<h1> AWS: Amplify </h1>
+<h3> O Bot está hospedado na AWS Amplify</h3>
+
 
 Links Úteis:
 // Como importar algumas funções de building do Discord.js
