@@ -1,7 +1,7 @@
 <h1> Ibira, o Xamã</h1>
 <h2> Um bot do Discord com intuito de ensinar a magia da programação</h2> 
 <p>Para executar o Bot use 
-"node index.js"</p>
+"npm run bot"</p>
 
 <strong>IMPORTANTE!<br></strong>
 <strong>NUNCA COMPARTILHE O TOKEN DO BOT COM NINGUÉM</strong>
