@@ -1,7 +1,7 @@
 node_modules
 .env
 #token do discord
-config.json
+/token/config.json
 README2.txt
 
 #amplify-do-not-edit-begin

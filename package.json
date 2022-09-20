@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "app": "./deploy-commands.js"
+    ,"bot":"node index.js"
   },
   "author": "Nicolas Rocha Lacerda",
   "license": "ISC",

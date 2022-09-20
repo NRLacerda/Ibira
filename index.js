@@ -1,13 +1,13 @@
 // Require the necessary discord.js classes
 const { Client, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+const { token } = require('./token/config.json');
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
-	console.log('Life goes on and on and on');
+	console.log('Bot running!');
 });
 
 // Tentando trocar o prefixo do BO, Spoiler: não deu certo
